@@ -1,0 +1,10 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#box1 {
+	width: 100px;
+	height: 100px;
+	background-color: salmon;
+	border-radius: 20px;
+}

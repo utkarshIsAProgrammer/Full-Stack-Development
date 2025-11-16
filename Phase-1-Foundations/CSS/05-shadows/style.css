@@ -1,0 +1,12 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-shadow: 2px 5px 5px gray;
+}
+
+#box1 {
+	width: 200px;
+	height: 200px;
+	background-color: gray;
+	border-radius: 10px;
+	box-shadow: 2px 5px 5px black;
+}

@@ -1,0 +1,21 @@
+/* Element selector */
+header {
+	background-color: darkgrey;
+	color: #000;
+}
+
+/* ID selector */
+#four {
+	color: blue;
+	font-size: 20px;
+}
+
+#one {
+	color: yellow;
+	background-color: black;
+}
+
+/* Class selector */
+.content {
+	background-color: saddlebrown;
+}

@@ -1,0 +1,20 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	margin: auto;
+}
+
+#box1 {
+	background-color: slateblue;
+	margin-top: 200px;
+}
+
+#box2 {
+	margin-top: 20px;
+	background-color: slategray;
+}

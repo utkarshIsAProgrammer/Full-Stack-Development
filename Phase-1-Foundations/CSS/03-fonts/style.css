@@ -1,0 +1,12 @@
+h1 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+	font-family: "Stack Sans Text", sans-serif;
+	/* font-size: 20px; */
+	/* font-size: 1.2em; */
+	font-size: 1.2rem;
+	font-weight: 600;
+	font-style: oblique;
+}

@@ -1,0 +1,16 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+p {
+	border-top: 2px dotted red;
+	border-bottom: 2px dashed black;
+	border-left: 2px inset blue;
+	border-right: 2px outset green;
+	border-radius: 5px;
+}
