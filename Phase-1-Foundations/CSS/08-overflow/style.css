@@ -1,0 +1,14 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	border: 2px solid black;
+}
+
+div {
+	border: 2px solid black;
+	height: 75px;
+
+	/* overflow: hidden; */
+	/* overflow: scroll; */
+	overflow: clip;
+	overflow-clip-margin: 50px;
+}
