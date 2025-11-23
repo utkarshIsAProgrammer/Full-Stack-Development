@@ -1,0 +1,22 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+	background-color: red;
+	width: 100px;
+	height: 100px;
+
+	/* display: inline; */
+	/* display: none; */
+	visibility: hidden;
+}
+
+span {
+	background-color: blue;
+
+	/* display: block; */
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+}
