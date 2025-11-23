@@ -1,0 +1,45 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+	width: 800px;
+	height: 600px;
+	background-color: red;
+
+	display: flex;
+	align-items: center;
+	/* align-items: end; */
+
+	/* justify-content: center; */
+	justify-content: end;
+
+	gap: 20px;
+	flex-direction: column;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+}
+
+#box1 {
+	background-color: yellow;
+}
+
+#box2 {
+	background-color: blue;
+}
+
+#box3 {
+	background-color: green;
+	flex: 2;
+}
+
+#box4 {
+	background-color: orangered;
+}
+
+#box5 {
+	background-color: cyan;
+}
