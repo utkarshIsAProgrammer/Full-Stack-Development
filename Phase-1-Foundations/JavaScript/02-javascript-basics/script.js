@@ -40,7 +40,7 @@ console.log(undefined);
 console.log(null);
 
 // variables.....
-var redColor = "red"; // GLOBAL SCOPED
+var redColor = "red"; // FUNCTION SCOPED
 console.log(redColor);
 
 redColor = "#ff0000";
@@ -54,3 +54,40 @@ console.log(greenColor);
 
 const blackColor = "#000"; // BLOCK SCOPED
 console.log(blackColor);
+
+// arithmetic operators.....
+console.log(5 + 5);
+console.log(5 - 2);
+console.log(5 * 2);
+console.log(10 / 2);
+console.log(5 ** 2);
+console.log(10 % 2);
+
+console.log(6 + "7");
+console.log(6 + true);
+console.log(6 + false);
+console.log("121" - 1);
+
+// type conversion.....
+console.log(Number("23") * 2);
+console.log(parseInt("23.5") * 2);
+console.log(parseFloat("23.56") * 2);
+console.log(String(52) - 30);
+
+// comparison operators.....
+console.log(5 == "5"); // loose equal to operator
+console.log(5 === "5"); // strict equal to operator
+
+console.log(5 != "5"); // loose not equal to operator
+console.log(5 !== "5"); // // strict equal to operator
+
+console.log(5 > 6);
+console.log(5 >= 6);
+
+console.log(5 < 6);
+console.log(5 <= 6);
+
+// logical operators.....
+console.log(5 > 2 && 2 < 5);
+console.log(5 > 2 || 2 > 5);
+console.log(!(2 > 5));
